@@ -1,0 +1,36 @@
+{
+  "air_quality": {
+    "model_type": "Random Forest Regressor",
+    "dataset_records": 6941,
+    "train_samples": 5552,
+    "test_samples": 1389,
+    "r2_score": 0.7433,
+    "mae": 0.4531,
+    "rmse": 0.6962,
+    "feature_importances": {
+      "T": 0.0756,
+      "RH": 0.0375,
+      "AH": 0.0802,
+      "NOx(GT)": 0.6107,
+      "NO2(GT)": 0.1959
+    }
+  },
+  "flood_risk": {
+    "model_type": "Random Forest Classifier",
+    "dataset_records": 6000,
+    "train_samples": 4800,
+    "test_samples": 1200,
+    "accuracy": 0.9508,
+    "precision": 0.9442,
+    "recall": 0.9555,
+    "f1_score": 0.9498,
+    "feature_importances": {
+      "MonsoonIntensity": 0.4953,
+      "DrainageSystems": 0.1614,
+      "Deforestation": 0.1143,
+      "RiverManagement": 0.1092,
+      "ClimateChange": 0.0707,
+      "DamsQuality": 0.0491
+    }
+  }
+}
